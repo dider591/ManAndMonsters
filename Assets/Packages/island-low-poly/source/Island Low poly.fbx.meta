@@ -1,0 +1,438 @@
+fileFormatVersion: 2
+guid: f12b99759cd7ee047b9285f77ecbd2c0
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 8723448352162927743
+    second: Seaweed|Boat
+  - first:
+      74: -2287130225338618987
+    second: Seaweed|BoatAction
+  - first:
+      74: 3642340294142712957
+    second: Seaweed|BoatAction.001
+  - first:
+      74: 2659250826472280680
+    second: Seaweed|Fish 2
+  - first:
+      74: -8079525635493601052
+    second: Seaweed|Fish one
+  - first:
+      74: 9218866719437399882
+    second: Seaweed|Ocean
+  - first:
+      74: -6315333522761506963
+    second: Seaweed|Seaweed
+  - first:
+      74: -7008346600703058626
+    second: Seaweed.001|Boat
+  - first:
+      74: -8943955236435695099
+    second: Seaweed.001|BoatAction
+  - first:
+      74: -4971357885940966052
+    second: Seaweed.001|BoatAction.001
+  - first:
+      74: 3195282341739115678
+    second: Seaweed.001|Fish 2
+  - first:
+      74: 8449543314033506776
+    second: Seaweed.001|Fish one
+  - first:
+      74: -8334446752507684634
+    second: Seaweed.001|Ocean
+  - first:
+      74: -1278282667264701465
+    second: Seaweed.001|Seaweed
+  - first:
+      74: 1765315966861457024
+    second: Seaweed.002|Boat
+  - first:
+      74: -2596232972857748255
+    second: Seaweed.002|BoatAction
+  - first:
+      74: -6699285883444473988
+    second: Seaweed.002|BoatAction.001
+  - first:
+      74: -1098024196770107511
+    second: Seaweed.002|Fish 2
+  - first:
+      74: -5998114641324424461
+    second: Seaweed.002|Fish one
+  - first:
+      74: 6587873548472663558
+    second: Seaweed.002|Ocean
+  - first:
+      74: -6219097381496928576
+    second: Seaweed.002|Seaweed
+  - first:
+      74: -7535129611388800098
+    second: Seaweed.003|Boat
+  - first:
+      74: 1256972422146649808
+    second: Seaweed.003|BoatAction
+  - first:
+      74: -8583885515600205882
+    second: Seaweed.003|BoatAction.001
+  - first:
+      74: 4074161987537419452
+    second: Seaweed.003|Fish 2
+  - first:
+      74: -4769026656860382204
+    second: Seaweed.003|Fish one
+  - first:
+      74: 7025104608057810553
+    second: Seaweed.003|Ocean
+  - first:
+      74: 5661370211528622262
+    second: Seaweed.003|Seaweed
+  - first:
+      74: 111091192921780326
+    second: Seaweed.004|Boat
+  - first:
+      74: 2209646051845176664
+    second: Seaweed.004|BoatAction
+  - first:
+      74: -7167958231929628317
+    second: Seaweed.004|BoatAction.001
+  - first:
+      74: -4432266530317877013
+    second: Seaweed.004|Fish 2
+  - first:
+      74: 8852410388799397435
+    second: Seaweed.004|Fish one
+  - first:
+      74: 2471587639123402545
+    second: Seaweed.004|Ocean
+  - first:
+      74: -7752042315575432447
+    second: Seaweed.004|Seaweed
+  - first:
+      74: -8278092015761087547
+    second: Seaweed.005|Boat
+  - first:
+      74: 5991863909937403719
+    second: Seaweed.005|BoatAction
+  - first:
+      74: -3469011373696091726
+    second: Seaweed.005|BoatAction.001
+  - first:
+      74: -2192841322151000670
+    second: Seaweed.005|Fish 2
+  - first:
+      74: -6985131107839848726
+    second: Seaweed.005|Fish one
+  - first:
+      74: 5363344787282726643
+    second: Seaweed.005|Ocean
+  - first:
+      74: 2321670171043562215
+    second: Seaweed.005|Seaweed
+  - first:
+      74: 4930988466771805478
+    second: Seaweed.006|Boat
+  - first:
+      74: -6187524423258723720
+    second: Seaweed.006|BoatAction
+  - first:
+      74: -6080275455292636823
+    second: Seaweed.006|BoatAction.001
+  - first:
+      74: 5761826218545734797
+    second: Seaweed.006|Fish 2
+  - first:
+      74: 1319360013750227131
+    second: Seaweed.006|Fish one
+  - first:
+      74: -2288681323763427764
+    second: Seaweed.006|Ocean
+  - first:
+      74: 5675699431477729421
+    second: Seaweed.006|Seaweed
+  - first:
+      74: -3531146965172037760
+    second: Seaweed.007|Boat
+  - first:
+      74: -6890874658927877003
+    second: Seaweed.007|BoatAction
+  - first:
+      74: 100218418393749868
+    second: Seaweed.007|BoatAction.001
+  - first:
+      74: -2903930549228185848
+    second: Seaweed.007|Fish 2
+  - first:
+      74: 7486457151655696262
+    second: Seaweed.007|Fish one
+  - first:
+      74: -2940267089053608560
+    second: Seaweed.007|Ocean
+  - first:
+      74: -5036425417297599681
+    second: Seaweed.007|Seaweed
+  - first:
+      74: 5849532178825178035
+    second: Seaweed.008|Boat
+  - first:
+      74: -5862071160752738947
+    second: Seaweed.008|BoatAction
+  - first:
+      74: 238926532679815100
+    second: Seaweed.008|BoatAction.001
+  - first:
+      74: 6283013715654559094
+    second: Seaweed.008|Fish 2
+  - first:
+      74: -4268163290020864041
+    second: Seaweed.008|Fish one
+  - first:
+      74: -2562056510844238621
+    second: Seaweed.008|Ocean
+  - first:
+      74: -5409328645007481395
+    second: Seaweed.008|Seaweed
+  - first:
+      74: 4953368931077030682
+    second: Seaweed.009|Boat
+  - first:
+      74: 2091227312308884050
+    second: Seaweed.009|BoatAction
+  - first:
+      74: -8044454738457713097
+    second: Seaweed.009|BoatAction.001
+  - first:
+      74: -7852797177225288910
+    second: Seaweed.009|Fish 2
+  - first:
+      74: -1124784925017865882
+    second: Seaweed.009|Fish one
+  - first:
+      74: 3965362750526892809
+    second: Seaweed.009|Ocean
+  - first:
+      74: -3514564194967169654
+    second: Seaweed.009|Seaweed
+  - first:
+      74: 890413294960396052
+    second: Ocean|Boat
+  - first:
+      74: -6144418001076073576
+    second: Ocean|BoatAction
+  - first:
+      74: -4229259567433619437
+    second: Ocean|BoatAction.001
+  - first:
+      74: 8483773501009362651
+    second: Ocean|Fish 2
+  - first:
+      74: 4465937597373791282
+    second: Ocean|Fish one
+  - first:
+      74: 3412093684081517896
+    second: Ocean|Ocean
+  - first:
+      74: 5148971253658235122
+    second: Ocean|Seaweed
+  - first:
+      74: -2279972709389672577
+    second: Seaweed.010|Boat
+  - first:
+      74: 4618439450222475832
+    second: Seaweed.010|BoatAction
+  - first:
+      74: -7406095849451485337
+    second: Seaweed.010|BoatAction.001
+  - first:
+      74: -5329003514601031763
+    second: Seaweed.010|Fish 2
+  - first:
+      74: -4417243400807325748
+    second: Seaweed.010|Fish one
+  - first:
+      74: 3099992400538708889
+    second: Seaweed.010|Ocean
+  - first:
+      74: 6074715782717155522
+    second: Seaweed.010|Seaweed
+  - first:
+      74: 1399419978285375426
+    second: Fish.003|Boat
+  - first:
+      74: -6365020131273280465
+    second: Fish.003|BoatAction
+  - first:
+      74: -7554142303567960942
+    second: Fish.003|BoatAction.001
+  - first:
+      74: -6494687333469223974
+    second: Fish.003|Fish 2
+  - first:
+      74: -4011376885957558669
+    second: Fish.003|Fish one
+  - first:
+      74: -953474335707935971
+    second: Fish.003|Ocean
+  - first:
+      74: 712260772214165834
+    second: Fish.003|Seaweed
+  - first:
+      74: 8794322248760037503
+    second: Fish.012|Boat
+  - first:
+      74: -6602556461808385839
+    second: Fish.012|BoatAction
+  - first:
+      74: -5263216688257550872
+    second: Fish.012|BoatAction.001
+  - first:
+      74: -1529235595911471908
+    second: Fish.012|Fish 2
+  - first:
+      74: 9087615211638099052
+    second: Fish.012|Fish one
+  - first:
+      74: -8392486530689203627
+    second: Fish.012|Ocean
+  - first:
+      74: 1335011047554691913
+    second: Fish.012|Seaweed
+  - first:
+      74: -4567138761076098233
+    second: Boat|Boat
+  - first:
+      74: -5321417996729391735
+    second: Boat|BoatAction
+  - first:
+      74: 7700053180067204658
+    second: Boat|BoatAction.001
+  - first:
+      74: -6701164245768955114
+    second: Boat|Fish 2
+  - first:
+      74: 2872321672340403538
+    second: Boat|Fish one
+  - first:
+      74: 4034017255269719435
+    second: Boat|Ocean
+  - first:
+      74: -3048967573782627321
+    second: Boat|Seaweed
+  - first:
+      74: -2051584911749144794
+    second: Boat Drive|Boat
+  - first:
+      74: 1496519692202191883
+    second: Boat Drive|BoatAction
+  - first:
+      74: 8053621891001899983
+    second: Boat Drive|BoatAction.001
+  - first:
+      74: 5158584143472477926
+    second: Boat Drive|Fish 2
+  - first:
+      74: -3121347030542094807
+    second: Boat Drive|Fish one
+  - first:
+      74: 7323447448119576504
+    second: Boat Drive|Ocean
+  - first:
+      74: -2056773048007241934
+    second: Boat Drive|Seaweed
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
