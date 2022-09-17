@@ -28,7 +28,6 @@ public class Weapon : MonoBehaviour
         if (other.TryGetComponent<Crate>(out Crate Crate))
         {
             Crate.InstantiateCrate();
-
         }
     }
 }

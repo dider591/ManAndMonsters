@@ -19,7 +19,6 @@ public class Explousion : MonoBehaviour
             {
                 rigidbody.AddExplosionForce(_force, transform.position, _force);
             }
-
         }
     }
 }

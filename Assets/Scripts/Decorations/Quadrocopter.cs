@@ -6,8 +6,6 @@ using UnityEngine;
 
 public class Quadrocopter : MonoBehaviour
 {
-    //[SerializeField] private GameObject _man;
-
     private Animator _animator;
     private int Run = Animator.StringToHash("Run");
 
@@ -18,7 +16,6 @@ public class Quadrocopter : MonoBehaviour
 
     public void PlayAnimation()
     {
-        //_man.SetActive(true);
         _animator.Play(Run);
     }
 }
