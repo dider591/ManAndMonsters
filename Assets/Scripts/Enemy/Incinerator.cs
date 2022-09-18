@@ -6,7 +6,7 @@ public class Incinerator : MonoBehaviour
 {
     private Material[] _materials;
 
-    private const string DissolveAmount = "_DissolveAmount";
+    private const string Cutoff = "_Cutoff";
 
     private void Start()
     {
@@ -20,7 +20,7 @@ public class Incinerator : MonoBehaviour
     {
         foreach (var material in _materials)
         {
-            material.DOFloat(1f, DissolveAmount, 3f);
+            material.DOFloat(1f, Cutoff, 3f);
         }
     }
 }
