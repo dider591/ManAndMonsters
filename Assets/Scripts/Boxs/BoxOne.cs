@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BoxOne : MonoBehaviour
 {
-    [SerializeField] private ParticleSystem _spot;
+    [SerializeField] private GameObject _spot;
 
     public void InstantiateSpot(Vector3 point)
     {
