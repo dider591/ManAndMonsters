@@ -13,7 +13,6 @@ public class Incinerator : MonoBehaviour
         _materials = GetComponent<Renderer>().materials;
 
         SetAlfa();
-        Destroy(gameObject, 2f);
     } 
 
     private void SetAlfa()

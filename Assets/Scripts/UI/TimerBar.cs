@@ -10,7 +10,7 @@ public class TimerBar : MonoBehaviour
     [SerializeField] private CanvasGroup _canvasGroup;
 
     private float _maxValue = 1f;
-    private float _currentvalue;
+    private float _currentvalue = 1f;
     private float _stepTimer = 0.1f;
     private Image _imageBar;
     private bool _isSee = false;
@@ -18,7 +18,6 @@ public class TimerBar : MonoBehaviour
     private void OnEnable()
     {
         _imageBar = GetComponent<Image>();
-        SetTimer();
         _boxTwo.SeePlayer += IsSee;
     }
 
@@ -32,6 +31,7 @@ public class TimerBar : MonoBehaviour
         if (Input.GetMouseButtonDown(0) && _isSee == true)
         {
             SetTimer();
+            _isSee = false;
         }
         if (_currentvalue > 0)
         {
