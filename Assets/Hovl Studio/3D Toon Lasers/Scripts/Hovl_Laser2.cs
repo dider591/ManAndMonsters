@@ -44,9 +44,12 @@ public class Hovl_Laser2 : MonoBehaviour
         //Quaternion rotation = Quaternion.LookRotation(mause);
         //transform.rotation = Quaternion.Lerp(transform.rotation, rotation, _speedRotation);
         transform.LookAt(mause);
+        //transform.LookAt(Vector3.forward);
+
 
         RaycastHit hit;
         var raycast = Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, MaxLength);
+        //transform.LookAt(hit.point);
 
         if (laserPS != null && UpdateSaver == false)
         {
@@ -66,6 +69,7 @@ public class Hovl_Laser2 : MonoBehaviour
 
                 laserMat.SetFloat("_Distance", hit.distance);
                 laserMat.SetVector("_EndPoint", hit.point);
+
                 if (Hit != null)
                 {
                     if (hit.collider.TryGetComponent<Enemy>(out Enemy enemy))

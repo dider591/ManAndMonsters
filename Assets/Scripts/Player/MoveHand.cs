@@ -15,7 +15,7 @@ public class MoveHand : MonoBehaviour
 
     private void Start()
     {
-        _position = GetComponent<Transform>().localPosition;
+        _position = transform.localPosition;
     }
 
     private void Update()

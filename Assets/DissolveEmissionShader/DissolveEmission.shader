@@ -1,6 +1,6 @@
 ﻿Shader "DissolverShader/DissolveShader" {
 	Properties {
-		_Color ("Color", Color) = (1,1,1,1)
+		_Color ("Color", Color) = (0,0,0,0)
 		_MainTex ("Albedo (RGB)", 2D) = "white" {}
 		_NormalMap ("Normal Map", 2D) = "bump" {}
 		_NormalStrenght ("Normal Strength", Range(0, 1.5)) = 0.5

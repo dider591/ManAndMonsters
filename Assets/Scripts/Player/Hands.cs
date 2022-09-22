@@ -9,7 +9,7 @@ public class Hands : MonoBehaviour
 
     public void MoveDown()
     {
-        transform.DOMove(new Vector3(transform.position.x, transform.position.y - 2f, transform.position.z), 3f).SetDelay(2f);
+        transform.DOMove(new Vector3(transform.position.x, transform.position.y - 2f, transform.position.z), 3f).SetDelay(1.5f);
     }
 
     public void StartColorChange(Material material, float delay)

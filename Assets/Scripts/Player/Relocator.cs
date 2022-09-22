@@ -8,7 +8,7 @@ public class Relocator : MonoBehaviour
     [SerializeField] private float _jumpPower;
 
     private int _countJump = 1;
-    private float _duration = 2f;
+    private float _duration = 1.2f;
 
     private void OnTriggerEnter(Collider other)
     {
