@@ -1,15 +1,14 @@
 ﻿using UnityEngine;
 
-public class CrashCrate : MonoBehaviour
+public class StarterEffects : MonoBehaviour
 {
-    [SerializeField] private GameObject _rewardCoin;
-    [SerializeField] private GameObject _rewardConfetti;
+    [SerializeField] private ParticleSystem _rewardCoin;
+    [SerializeField] private ParticleSystem _rewardConfetti;
 
     private void Start()
     {
         Spawn();
     }
-
 
     public void Spawn()
     {

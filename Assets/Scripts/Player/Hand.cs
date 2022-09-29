@@ -1,8 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using DG.Tweening;
-using System;
 
 [RequireComponent(typeof(Animator))]
 public class Hand : MonoBehaviour

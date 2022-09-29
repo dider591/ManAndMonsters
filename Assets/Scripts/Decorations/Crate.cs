@@ -1,10 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Crate : MonoBehaviour
 {
-    [SerializeField] private CrashCrate _crashCrate;
+    [SerializeField] private StarterEffects _crashCrate;
 
     public void InstantiateCrate()
     {
