@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 
@@ -9,7 +7,6 @@ public class MoveHand : MonoBehaviour
     private float _stepX = 0.04f;
     private float _stepY = 0.05f;
     private float _stepMini = 0.03f;
-
 
     private Vector3 _position;
 
