@@ -1,9 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class LastBox : MonoBehaviour
+public class LastBox : Box
 {
     [SerializeField] private GameObject _man;
     [SerializeField] private ParticleSystem _confetti;

@@ -1,18 +1,17 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 
 public class MoverCoin : MonoBehaviour
 {
-    private float _step;
+    private const float MinStep = 0.4f;
+    private const float MaxStep = 0.6f;
+    private const float Duration = 0.3f;
 
-    private float _minStep = 0.4f;
-    private float _maxStep = 0.6f;
+    private float _step;
 
     private void Start()
     {
-        _step = Random.Range(_minStep, _maxStep);
-        transform.DOMoveY(transform.position.y + _step, 0.3f);
+        _step = Random.Range(MinStep, MaxStep);
+        transform.DOMoveY(transform.position.y + _step, Duration);
     }
 }

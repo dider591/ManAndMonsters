@@ -1,9 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class BoxTwo : MonoBehaviour
+public class BoxTwo : Box
 {
     [SerializeField] private GameObject _ghost;
     [SerializeField] private Material _handMaterial;

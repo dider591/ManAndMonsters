@@ -1,8 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class BoxOne : MonoBehaviour
+public class BoxOne : Box
 {
     [SerializeField] private ParticleSystem _spot;
 

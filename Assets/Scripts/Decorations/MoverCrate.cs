@@ -1,21 +1,21 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 
 public class MoverCrate : MonoBehaviour
 {
-    private float _moveDown = 2f;
-    private float _minPosition = -10f;
+    private const float MoveDown = 2f;
+    private const float MinPosition = -10f;
+    private const float Delay = 5f;
+    private const float Duration = 5f;
 
     private void Start()
     {
-        transform.DOMoveY(_moveDown, 5).SetDelay(5);
+        transform.DOMoveY(MoveDown, Duration).SetDelay(Delay);
     }
 
     private void Update()
     {
-        if (transform.position.y <= _minPosition)
+        if (transform.position.y <= MinPosition)
         {
             Destroy(gameObject);
         }

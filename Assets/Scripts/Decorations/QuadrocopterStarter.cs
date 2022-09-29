@@ -1,10 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Animator))]
-
-public class Quadrocopter : MonoBehaviour
+public class QuadrocopterStarter : MonoBehaviour
 {
     private Animator _animator;
     private int Run = Animator.StringToHash("Run");
